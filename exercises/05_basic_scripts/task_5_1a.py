@@ -44,3 +44,7 @@ london_co = {
         "routing": True,
     },
 }
+
+ne_name = input("Введите имя: ")
+ne_info = input("Введите параметр: ")
+print(london_co[ne_name][ne_info])

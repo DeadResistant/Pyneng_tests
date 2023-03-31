@@ -46,3 +46,5 @@ london_co = {
         "routing": True,
     },
 }
+result = input()
+print(london_co[result])
